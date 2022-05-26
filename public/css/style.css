@@ -1,0 +1,152 @@
+.navbar-collapse {
+    justify-content: space-between;
+}
+.navbar-nav {
+    width: 65%;
+}
+#formSearch {
+    width: 50%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+#formCreate {
+    margin-right: 0;
+    margin-left: 0;
+}
+#frmCtrl {
+    display: inline-block;
+}
+#navBtns {
+    border-radius: 10px;
+    background-color: #fff;
+}
+#auth {
+    text-decoration: none;
+    color:inherit;
+    background-color: #fff;
+}
+.form-control {
+    width: 70%;
+    border-radius: 10px;
+}
+#post {
+    margin: 20px auto;
+    padding: 0;
+    box-shadow: 0.2em 0.2em 10px rgba(122,122,122,0.5);
+}
+.card {
+    border-radius: 10px;
+}
+.card-subtitleInfo {
+    display: flex;
+    justify-content: space-between;
+}
+.card-img {
+    height: 400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.edit-icon, 
+.destroy-icon {
+    position: relative;
+    color: black;
+    text-decoration: none;
+}
+.edit-icon:hover,
+.destroy-icon:hover {
+    color: inherit;
+}
+.edit-icon::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    height: 60px;
+    width: 60px;
+    content: '\f304';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+    font-weight: 900;
+}
+.destroy-icon::after {
+    position: absolute;
+    top: -18px;
+    right: -11px;
+    display: block;
+    height: 60px;
+    width: 60px;
+    content: '\f1f8';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+    font-weight: 900;
+}
+.alert {
+    width: 50%;
+    margin: 5px auto;
+}
+.interlayer {
+    height: 60px;
+}
+.error404 {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.error-info {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.e404 {
+    margin: 0;
+    font-size: 200px;
+    letter-spacing: 10px;
+}
+.media-body .author {
+    display: block;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 700;
+}
+.media-body .metadata {
+    display: block;
+    color: #000;
+    font-size: .75rem;
+}
+.title-comments {
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    color: rgba(0,0,0,.87);
+    margin-bottom: 1rem;
+    padding-bottom: .25rem;
+    border-bottom: 1px solid rgba(34,36,38,.15); 
+}
+.media-left img {
+    width: 70px;
+}
+.media {
+    margin-top:0px;
+}
+.media-text {
+    margin-bottom: 10px;
+}
+.likesCount {
+    position: absolute;
+    top: 95%;
+    right: 92%;    
+}
+.category-selector {
+    width: 100%;
+    margin:0 auto;
+}
+.categ-select {
+    width: 25%;
+    border-radius: 10px;
+}
+.btn-categ {
+    border-radius: 10px;
+}
+
